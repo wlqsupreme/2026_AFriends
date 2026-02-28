@@ -1,0 +1,58 @@
+# image-recommendation-service/src/main/resources/bootstrap.yml
+spring:
+  application:
+    name: image-recommendation-service # 服务名称（Nacos中唯一标识）
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 # Nacos注册中心地址
+        username: nacos
+        password: nacos
+        namespace: public
+      config:
+        enabled: true # 启用Nacos配置中心（可选）
+        server-addr: localhost:8848
+        username: nacos
+        password: nacos
+  profiles:
+    active: dev
+# 复用核心模块的数据库配置（与afriends-core的application.yml一致）
+
+  datasource:
+    url: jdbc:mysql://frpgz1.idcfengye.com:10002/afriends_db_v3?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+    username: njj
+    password: 040227
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      password: mypassword123
+
+# MyBatis-Plus配置（复用核心模块）
+mybatis-plus:
+  mapper-locations: classpath:mappers/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+  type-aliases-package: Afriends_v3.entity
+
+# Swagger文档配置
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+
+# 推荐服务业务配置（从Nacos或本地读取）
+app:
+  recommendation:
+    default:
+      limit: 10
+      soft-tag-weight: 70
+      hard-tag-weight: 25
+      popularity-weight: 10
+
+# 独立端口（3个微服务端口必须不同，且不与核心模块8888冲突）
+server:
+  port: 8081
+  address: 0.0.0.0

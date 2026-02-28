@@ -1,0 +1,6 @@
+/unpackage/
+node_modules/
+.DS_Store
+
+# 忽略所有 application.properties 文件
+**/application.properties

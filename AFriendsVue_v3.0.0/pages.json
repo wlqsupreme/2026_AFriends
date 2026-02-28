@@ -1,0 +1,518 @@
+{
+	"pages": [
+		{
+			"path": "pages/feed/chat-feed",
+			"style": {
+				"navigationBarTitleText": "万人聊天",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+
+		{
+			"path": "pages/ai/ai",
+			"style": {
+				"navigationBarTitleText": "AI"
+			}
+		},
+		{
+			"path": "pages/ai/customize-ai",
+			"style": {
+				"navigationBarTitleText": "自定义AI"
+			}
+		},
+		{
+			"path": "pages/ai/gift",
+			"style": {
+				"navigationBarTitleText": "模型信息"
+			}
+		},
+		{
+			"path": "pages/ai/level-up",
+			"style": {
+				"navigationBarTitleText": "等级提升"
+			}
+		},
+		{
+			"path": "pages/ai/permissions",
+			"style": {
+				"navigationBarTitleText": "AI理解等级"
+			}
+		},
+		{
+			"path": "pages/ai/ai-list",
+			"style": {
+				"navigationBarTitleText": "AI列表"
+			}
+		},
+		{
+			"path": "pages/ai/pet-ai-detail",
+			"style": {
+				"navigationBarTitleText": "宠物AI详情"
+			}
+		},
+		{
+			"path": "pages/ai/ai-chat",
+			"style": {
+				"navigationBarTitleText": "AI聊天",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/ai/ai-store",
+			"style": {
+				"navigationBarTitleText": "AI商店"
+			}
+		},
+		{
+			"path": "pages/ai/tasks",
+			"style": {
+				"navigationBarTitleText": "任务"
+			}
+		},
+		{
+			"path": "pages/ai/task-detail",
+			"style": {
+				"navigationBarTitleText": "任务详情",
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/chat/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/chat/date-search",
+			"style": {
+				"navigationBarTitleText": "按日期查找"
+			}
+		},
+		{
+			"path": "pages/chat/search-results",
+			"style": {
+				"navigationBarTitleText": "搜索结果"
+			}
+		},
+		{
+			"path": "pages/chat/chat-info",
+			"style": {
+				"navigationBarTitleText": "聊天信息"
+			}
+		},
+		{
+			"path": "pages/chat/friend-card",
+			"style": {
+				"navigationBarTitleText": "好友详情"
+			}
+		},
+
+		{
+			"path": "pages/chat/friend-list",
+			"style": {
+				"navigationBarTitleText": "好友列表"
+			}
+		},
+		{
+			"path": "pages/chat/add-friend",
+			"style": {
+				"navigationBarTitleText": "添加好友"
+			}
+		},
+		{
+			"path": "pages/chat/friend-requests",
+			"style": {
+				"navigationBarTitleText": "好友申请"
+			}
+		},
+		{
+			"path": "pages/chat/chat-list",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationStyle": "custom"
+			}
+		},
+
+
+
+		{
+			"path": "pages/feed/content-feed",
+			"style": {
+				"navigationBarTitleText": "内容流"
+			}
+		},
+		{
+			"path": "pages/feed/post-detail",
+			"style": {
+				"navigationBarTitleText": "动态详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/feed/user-profile",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "pages/feed/edit-profile",
+			"style": {
+				"navigationBarTitleText": "编辑资料"
+			}
+		},
+		{
+			"path": "pages/feed/my-comments",
+			"style": {
+				"navigationBarTitleText": "我的评论"
+			}
+		},
+		{
+			"path": "pages/feed/novel-detail",
+			"style": {
+				"navigationBarTitleText": "小说详情"
+			}
+		},
+		{
+			"path": "pages/feed/novel-more-reviews",
+			"style": {
+				"navigationBarTitleText": "热门书评",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/feed/review-detail",
+			"style": {
+				"navigationBarTitleText": "书评详情",
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/feed/achievements",
+			"style": {
+				"navigationBarTitleText": "我的成就"
+			}
+		},
+		{
+			"path": "pages/feed/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/feed/likes-dislikes",
+			"style": {
+				"navigationBarTitleText": "我的喜恶"
+			}
+		},
+		{
+			"path": "pages/feed/interaction-messages",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/notifications/notification-list",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "通知"
+			}
+		},
+
+
+		{
+			"path": "pages/publish/publish",
+			"style": {
+				"navigationBarTitleText": "发布内容"
+			}
+		},
+
+		{
+			"path": "pages/settings/settings",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/settings/system-permissions",
+			"style": {
+				"navigationBarTitleText": "系统权限"
+			}
+		},
+		{
+			"path": "pages/settings/permissions",
+			"style": {
+				"navigationBarTitleText": "权限管理"
+			}
+		},
+		{
+			"path": "pages/settings/album-permissions",
+			"style": {
+				"navigationBarTitleText": "相册权限"
+			}
+		},
+		{
+			"path": "pages/settings/blocked-users",
+			"style": {
+				"navigationBarTitleText": "黑名单管理"
+			}
+		},
+		{
+			"path": "pages/settings/customer-service",
+			"style": {
+				"navigationBarTitleText": "客服中心"
+			}
+		},
+		{
+			"path": "pages/settings/terms-of-service",
+			"style": {
+				"navigationBarTitleText": "服务条款"
+			}
+		},
+		{
+			"path": "pages/settings/switch-account",
+			"style": {
+				"navigationBarTitleText": "更换账号"
+			}
+		},
+		{
+			"path": "pages/settings/mode-selection",
+			"style": {
+				"navigationBarTitleText": "模式选择"
+			}
+		},
+		{
+			"path": "pages/settings/notification-settings",
+			"style": {
+				"navigationBarTitleText": "通知设置"
+			}
+		},
+		{
+			"path": "pages/settings/privacy-settings",
+			"style": {
+				"navigationBarTitleText": "隐私设置"
+			}
+		},
+		{
+			"path": "pages/settings/account-security",
+			"style": {
+				"navigationBarTitleText": "账号与安全"
+			}
+		},
+		{
+			"path": "pages/settings/phone-number-setting",
+			"style": {
+				"navigationBarTitleText": "手机号设置"
+			}
+		},
+		{
+			"path": "pages/settings/phone-verification",
+			"style": {
+				"navigationBarTitleText": "手机号绑定"
+			}
+		},
+		{
+			"path": "pages/settings/device-management",
+			"style": {
+				"navigationBarTitleText": "登录设备管理"
+			}
+		},
+		{
+			"path": "pages/settings/third-party-binding",
+			"style": {
+				"navigationBarTitleText": "第三方账号绑定"
+			}
+		},
+		{
+			"path": "pages/settings/add-ways",
+			"style": {
+				"navigationBarTitleText": "添加我的方式"
+			}
+		},
+		{
+			"path": "pages/settings/language",
+			"style": {
+				"navigationBarTitleText": "语言"
+			}
+		},
+		{
+			"path": "pages/settings/notification-display",
+			"style": {
+				"navigationBarTitleText": "通知显示内容"
+			}
+		},
+
+		{
+			"path": "pages/verification/official-certification",
+			"style": {
+				"navigationBarTitleText": "官方认证"
+			}
+		},
+		{
+			"path": "pages/verification/school-certification",
+			"style": {
+				"navigationBarTitleText": "学校认证"
+			}
+		},
+		{
+			"path": "pages/verification/professional-certification",
+			"style": {
+				"navigationBarTitleText": "个人职业认证"
+			}
+		},
+		{
+			"path": "pages/verification/real-name-verification",
+			"style": {
+				"navigationBarTitleText": "实名认证"
+			}
+		},
+		{
+			"path": "pages/verification/face-recognition",
+			"style": {
+				"navigationBarTitleText": "人脸识别"
+			}
+		},
+		{
+			"path": "pages/verification/verification-complete",
+			"style": {
+				"navigationBarTitleText": "认证完成"
+			}
+		},
+		{
+			"path": "pages/verification/certification-feedback",
+			"style": {
+				"navigationBarTitleText": "确认认证"
+			}
+		},
+
+		{
+			"path": "pages/settings/faq",
+			"style": {
+				"navigationBarTitleText": "常见问题"
+			}
+		},
+
+		{
+			"path": "pages/wallet/wallet",
+			"style": {
+				"navigationBarTitleText": "钱包"
+			}
+		},
+		{
+			"path": "pages/wallet/recharge",
+			"style": {
+				"navigationBarTitleText": "充值"
+			}
+		},
+		{
+			"path": "pages/wallet/purchase-record",
+			"style": {
+				"navigationBarTitleText": "购买记录"
+			}
+		},
+
+		{
+			"path": "pages/browsing-history/browsing-history",
+			"style": {
+				"navigationBarTitleText": "浏览记录"
+			}
+		},
+
+		{
+			"path": "pages/report/report",
+			"style": {
+				"navigationBarTitleText": "举报"
+			}
+		},
+		{
+			"path": "pages/report/report-evidence",
+			"style": {
+				"navigationBarTitleText": "举报证据"
+			}
+		},
+		{
+			"path": "pages/report/report-feedback",
+			"style": {
+				"navigationBarTitleText": "举报反馈"
+			}
+		},
+
+		{
+			"path": "pages/login/phone-login",
+			"style": {
+				"navigationBarTitleText": "手机号登录"
+			}
+		},
+		{
+			"path": "pages/login/login-replica",
+			"style": {
+				"navigationBarTitleText": "账号密码登录"
+			}
+		},
+		{
+			"path": "pages/login/login-unbound",
+			"style": {
+				"navigationBarTitleText": "未绑定账号登录"
+			}
+		},
+		{
+			"path": "pages/login/phone-register",
+			"style": {
+				"navigationBarTitleText": "手机号注册"
+			}
+		},
+		{
+			"path": "pages/login/verification-code-login",
+			"style": {
+				"navigationBarTitleText": "验证码登录"
+			}
+		},
+		{
+			"path": "pages/login/verification-code-register",
+			"style": {
+				"navigationBarTitleText": "验证码注册"
+			}
+		},
+		{
+			"path": "pages/login/verification-code-resetPassword",
+			"style": {
+				"navigationBarTitleText": "验证码重置密码"
+			}
+		},
+		{
+			"path": "pages/login/reset-password",
+			"style": {
+				"navigationBarTitleText": "重置密码"
+			}
+		},
+		{
+			"path": "pages/login/rest-verify-password",
+			"style": {
+				"navigationBarTitleText": "重置验证密码"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
